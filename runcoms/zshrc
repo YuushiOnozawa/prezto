@@ -13,6 +13,7 @@ fi
 # Customize to your needs...
 export LANG=ja_JP.UTF-8
 export PATH=$HOME/.nodebrew/current/bin:$PATH
+export PATH=/usr/local/Cellar/coreutils/8.15/libexec/gnubin/:$PATH
 
 autoload colors
 colors

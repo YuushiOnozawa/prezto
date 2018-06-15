@@ -11,8 +11,10 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
-export PATH=$HOME/.nodebrew/current/bin:$PATH
+#export PATH=$HOME/.nodebrew/current/bin:$PATH
 export PATH=/usr/local/Cellar/coreutils/8.29/libexec/gnubin/:$PATH
+# export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
+export PATH=/Users/onozawa_yushi/Library/Android/sdk/platform-tools:$PATH
 
 autoload colors
 colors

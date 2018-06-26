@@ -52,6 +52,9 @@ zstyle ':completion:*' list-colors 'di=36' 'ln=35' 'ex=32'
 autoload -Uz zmv
 alias zmv='noglob zmv -W'
 alias cleancheck='git clean -xdf -e .idea && npm cache clean --force && npm install'
+alias repos='ghq list -p | peco'
+alias repo='cd $(repos)'
+
 
 fpath=(~/.zsh/completion $fpath)
 
